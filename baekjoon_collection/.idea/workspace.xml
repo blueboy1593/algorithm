@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f27c7b1-64e4-4535-b5b7-d25a5d131695" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/baekjoon_collection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/baekjoon_collection.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2667단지번호붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2667단지번호붙이기.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f27c7b1-64e4-4535-b5b7-d25a5d131695" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +12,11 @@
     <session id="-442844998">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,12 +47,7 @@
         <entry file="file://$PROJECT_DIR$/6988타일밟기.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <marker date="1567500173498" expanded="true" signature="147:1027" ph="..." />
-                <marker date="1567500173498" expanded="true" signature="147:1053" ph="..." />
-                <marker date="1567500173498" expanded="true" signature="147:1076" ph="..." />
-              </folding>
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -245,9 +237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-start-column="2" selection-end-line="1" selection-end-column="40" />
-          <folding>
-            <marker date="1567067319745" expanded="true" signature="807:914" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -261,12 +250,7 @@
     <entry file="file://$PROJECT_DIR$/6988타일밟기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <marker date="1567500173498" expanded="true" signature="147:1027" ph="..." />
-            <marker date="1567500173498" expanded="true" signature="147:1053" ph="..." />
-            <marker date="1567500173498" expanded="true" signature="147:1076" ph="..." />
-          </folding>
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
