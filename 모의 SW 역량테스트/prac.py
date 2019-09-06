@@ -1,4 +1,6 @@
-a = [[2,3,1], [2,3,5], [2,3,10]]
-print(a)
-a.sort(reverse=True)
-print(a)
+aaa = [[1, 2], [2, 3], [3, 4]]
+for a in aaa:
+    print(a)
+    if a[0] == 1 or a[0] == 2:
+        aaa.remove(a)
+print(aaa)
