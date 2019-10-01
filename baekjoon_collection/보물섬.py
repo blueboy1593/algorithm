@@ -17,7 +17,7 @@ for i in range(sero):
                 if 0 <= idy < sero and 0 <= idx < garo:
                     if bomul_map[idy][idx] == "L":
                         cnt += 1
-            if cnt <= 1:
+            if cnt <= 2:
                 queue_list.append([i, j])
 
 def search_bomul(que):

@@ -3,13 +3,14 @@ sys.stdin = open("3234_input.txt", "r")
 
 def make_per(k):
     if k == N:
-        per_list.append(temp_per[:])
+        scale(0, 0, 0)
+        
     else:
         for i in range(N):
             if visited[i]:
                 continue
             visited[i] = True
-            temp_per[k] = mass[i] 
+            per[k] = mass[i] 
             make_per(k + 1)
             visited[i] = False
 
@@ -37,11 +38,7 @@ for tc in range(1, T + 1):
     k = 0
 
     visited = [ False ] * N
-    temp_per = [0] * N
-    per_list = []
+    per = [0] * N
     make_per(k)
     
-    for per in per_list:
-        scale(k, left, right)
-
     print("#%d %d" %(tc, cnt))
