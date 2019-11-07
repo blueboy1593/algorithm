@@ -1,10 +1,12 @@
 N = int(input())
-TP_list = [[0, 0]]
+TP_list = [[0,0]]
 for i in range(N):
     temp = list(map(int, input().split()))
     TP_list.append(temp)
 money_list = []
 money = 0
+
+print(TP_list)
 
 def goout(i, money, visited):
     # if i == N:
@@ -32,6 +34,7 @@ for m in range(1, N+1):
     visited = [False] * (N + 1)
     money = 0
     goout(m, money, visited)
+
 print(money_list)
 result = max(money_list)
 print(result)
