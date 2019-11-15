@@ -10,7 +10,7 @@ print(*chess_pan, sep='\n')
 chess_position_info = [0] * (K + 1)
 for i in range(1, K + 1):
     chess_position_info[i] = list(map(int, input().split()))
-print(chess_position_info)
+print('posi',chess_position_info)
 cnt = 0
 D = [0, (0,1), (0,-1),(-1,0),(1,0)]
 
@@ -22,7 +22,7 @@ for i in range(1, K + 1):
     direction = chess[2]
     # 방향 정보는 저장 안해도 되겠는데?
     chess_ground[y][x] = [i]
-print(*chess_ground, sep='\n')
+# print(*chess_ground, sep='\n')
 
 def change_d(d):
     if d == 4:
@@ -38,6 +38,9 @@ flag = False
 # 본격적인 이동 시작.
 while cnt < 10:
     cnt += 1
+    print("cnt", cnt)
+    print(*chess_ground, sep='\n')
+    print('position',chess_position_info)
     for i in range(1, K + 1):
         chess = chess_position_info[i]
         y = chess[0]
@@ -52,7 +55,7 @@ while cnt < 10:
                 if chess_ground[y][x][j] == i:
                     existed = chess_ground[y][x][:(j+1)]
                     remained = chess_ground[y][x][(j+1):]
-                    if remained == [] or remained == None:
+                    if remained == []:
                         remained = 0
         moved_y = y + D[d][0]
         moved_x = x + D[d][1]
@@ -63,6 +66,8 @@ while cnt < 10:
             d = change_d(d)
             moved_y = y + D[d][0]
             moved_x = x + D[d][1]
+            # 파란색이면 포지션값 무적권 갱신은 해줘야지
+            chess_position_info[i][2] = d
             # 맞은편도 파란색일때
             if chess_pan[moved_y][moved_x] == 2:
                 moved_y = y
@@ -81,7 +86,8 @@ while cnt < 10:
                 else:
                     chess_ground[moved_y][moved_x] = existed + chess_ground[moved_y][moved_x]
             for exist in existed:
-                chess_position_info[exist] = [moved_y, moved_x, d]
+                position = chess_position_info[exist][2]
+                chess_position_info[exist] = [moved_y, moved_x, position]
         # 파란색 마주치지 않았을 때
         else:
             if chess_pan[moved_y][moved_x] == 1:
@@ -100,7 +106,7 @@ while cnt < 10:
             for exist in existed:
                 position = chess_position_info[exist][2]
                 chess_position_info[exist] = [moved_y, moved_x, position]
-        print(*chess_ground, sep='\n')
+
     #     if len(chess_ground[moved_y][moved_x]) >= 4:
     #         flag = True
     #     if flag == True:
@@ -112,6 +118,6 @@ while cnt < 10:
                     flag = True
     if flag == True:
         break
-    print(chess_position_info)
+
 
 print(cnt)
