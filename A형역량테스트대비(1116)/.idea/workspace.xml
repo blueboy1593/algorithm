@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="855c0cce-7a9f-4135-95c9-2d9ce6bcdaeb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17837새로운게임2.py" beforeDir="false" afterPath="$PROJECT_DIR$/17837새로운게임2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/숫자만들기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/점심식사시간.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +14,11 @@
     <session id="1143205193">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,12 +48,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/17825주사위윷놀이.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <marker date="1573807406670" expanded="true" signature="380:609" ph="..." />
               </folding>
@@ -270,7 +267,6 @@
     </configuration>
     <list>
       <item itemvalue="Python.17837새로운게임2" />
-      <item itemvalue="Python.[SW모의]디저트카페" />
       <item itemvalue="Python.[SW모의]특이한자석" />
       <item itemvalue="Python.줄기세포배양" />
       <item itemvalue="Python.17825주사위윷놀이" />
@@ -280,7 +276,6 @@
         <item itemvalue="Python.17825주사위윷놀이" />
         <item itemvalue="Python.줄기세포배양" />
         <item itemvalue="Python.[SW모의]특이한자석" />
-        <item itemvalue="Python.[SW모의]디저트카페" />
         <item itemvalue="Python.17837새로운게임2" />
       </list>
     </recent_temporary>
@@ -300,7 +295,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13751318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,20 +345,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/점심식사시간.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/숫자만들기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/점심식사시간.py" />
+    <entry file="file://$PROJECT_DIR$/숫자만들기.py" />
     <entry file="file://$PROJECT_DIR$/벽돌깨기_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -396,10 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="827">
           <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
-          <folding>
-            <marker date="1573714194064" expanded="true" signature="193:568" ph="..." />
-            <marker date="1573714194064" expanded="true" signature="2400:3337" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,9 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="53" selection-start-line="53" selection-end-line="54" selection-end-column="26" />
-          <folding>
-            <marker date="1573697361633" expanded="true" signature="1161:1522" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,9 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="38" selection-start-line="38" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <marker date="1573792607420" expanded="true" signature="309:1197" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,7 +447,7 @@
     <entry file="file://$PROJECT_DIR$/17825주사위윷놀이.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <marker date="1573807406670" expanded="true" signature="380:609" ph="..." />
           </folding>
