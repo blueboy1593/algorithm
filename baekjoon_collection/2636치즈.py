@@ -1,5 +1,5 @@
 import sys
-# sys.stdin = open("2636_input.txt", "r")
+sys.stdin = open("2636_input.txt", "r")
 sys.setrecursionlimit(10**6)
 # 시스템상으로 재귀호출 리미트 풀어주는 것.
 
