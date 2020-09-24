@@ -28,3 +28,17 @@ str_number = str_number.rjust(4, '-')
 ```
 
 나름 재밌는!!! 채우는거다. 뭔지는 알겠지?
+
+
+
+### 3. 2차원 set 배열 만들기
+
+```python
+front = [ set() for _ in range(n + 1) ] # O
+back = [ set() ] * (n + 1)			   # X
+```
+
+위처럼 하면 맞고, 아래처럼 하면 틀림
+
+
+
