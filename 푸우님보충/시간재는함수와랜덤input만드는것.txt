@@ -1,0 +1,29 @@
+################################
+import time
+st = time.time()
+################################
+
+중간 로직
+
+##########################
+print(time.time() - st)
+##########################
+
+
+import sys
+import random
+sys.stdout = open("input.txt", "w")
+
+N = 8
+arr = [[0] * N for i in range(N)]
+
+print(N, N)
+for i in range(N):
+    for j in range(N):
+        t = random.randint(0, 2)
+        if t == 2 and (i * j) % 10:
+            t = 0
+        elif t == 1 and (i * j) % 5:
+            t = 0
+        print(t, end = ' ')
+    print()
